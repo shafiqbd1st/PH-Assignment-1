@@ -9,6 +9,15 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+.btn-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px 12px 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
 .container{
     /* border: 2px solid tomato; */
     width: 70%;
@@ -35,7 +44,7 @@ body{
     /* border: 2px solid tomato; */
     max-width: 1366px;
     height: 550px;
-    background-image: url("/assets/Hero-bg.png");
+    background-image: url("../assets/Hero-bg.png");
     display: flex;
     align-items: center;
     justify-content: center;
